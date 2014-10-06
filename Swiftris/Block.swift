@@ -22,7 +22,7 @@ enum BlockColor: Int, Printable {
         case .Blue:
             return "blue"
         case .Orange:
-            return "organge"
+            return "orange"
         case .Purple:
             return "purple"
         case .Red:
