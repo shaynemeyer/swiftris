@@ -29,7 +29,7 @@ class Swiftris {
         blockArray = Array2D<Block>(columns: NumColumns, rows: NumRows)
     }
     
-    func BeginGame() {
+    func beginGame() {
         if (nextShape == nil) {
             nextShape = Shape.random(PreviewColumn, startingRow: PreviewRow)
         }
