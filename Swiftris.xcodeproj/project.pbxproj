@@ -32,6 +32,7 @@
 		EDA9058519E2C4F7000A823C /* SquareShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9058419E2C4F7000A823C /* SquareShape.swift */; };
 		EDA9058719E2C81E000A823C /* TShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9058619E2C81E000A823C /* TShape.swift */; };
 		EDA9058919E2C88D000A823C /* LineShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9058819E2C88D000A823C /* LineShape.swift */; };
+		EDA9058B19E2C8E5000A823C /* LShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9058A19E2C8E5000A823C /* LShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		EDA9058419E2C4F7000A823C /* SquareShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareShape.swift; sourceTree = "<group>"; };
 		EDA9058619E2C81E000A823C /* TShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TShape.swift; sourceTree = "<group>"; };
 		EDA9058819E2C88D000A823C /* LineShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineShape.swift; sourceTree = "<group>"; };
+		EDA9058A19E2C8E5000A823C /* LShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				EDA9058419E2C4F7000A823C /* SquareShape.swift */,
 				EDA9058619E2C81E000A823C /* TShape.swift */,
 				EDA9058819E2C88D000A823C /* LineShape.swift */,
+				EDA9058A19E2C8E5000A823C /* LShape.swift */,
 				ED7A1CE819E078A200B5ABEA /* Main.storyboard */,
 				ED7A1CEB19E078A200B5ABEA /* Images.xcassets */,
 				ED7A1CED19E078A200B5ABEA /* LaunchScreen.xib */,
@@ -297,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDA9058B19E2C8E5000A823C /* LShape.swift in Sources */,
 				EDA9058519E2C4F7000A823C /* SquareShape.swift in Sources */,
 				ED7A1CE519E078A200B5ABEA /* GameScene.swift in Sources */,
 				ED7A1D2319E087EB00B5ABEA /* Shape.swift in Sources */,
