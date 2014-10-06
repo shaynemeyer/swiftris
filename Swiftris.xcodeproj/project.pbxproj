@@ -35,6 +35,7 @@
 		EDA9058B19E2C8E5000A823C /* LShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9058A19E2C8E5000A823C /* LShape.swift */; };
 		EDA9058D19E2C92E000A823C /* JShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9058C19E2C92E000A823C /* JShape.swift */; };
 		EDA9058F19E2C979000A823C /* SShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9058E19E2C979000A823C /* SShape.swift */; };
+		EDA9059119E2C9C0000A823C /* ZShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9059019E2C9C0000A823C /* ZShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		EDA9058A19E2C8E5000A823C /* LShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LShape.swift; sourceTree = "<group>"; };
 		EDA9058C19E2C92E000A823C /* JShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JShape.swift; sourceTree = "<group>"; };
 		EDA9058E19E2C979000A823C /* SShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SShape.swift; sourceTree = "<group>"; };
+		EDA9059019E2C9C0000A823C /* ZShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,11 +134,12 @@
 				EDA9058819E2C88D000A823C /* LineShape.swift */,
 				EDA9058A19E2C8E5000A823C /* LShape.swift */,
 				EDA9058C19E2C92E000A823C /* JShape.swift */,
+				EDA9058E19E2C979000A823C /* SShape.swift */,
+				EDA9059019E2C9C0000A823C /* ZShape.swift */,
 				ED7A1CE819E078A200B5ABEA /* Main.storyboard */,
 				ED7A1CEB19E078A200B5ABEA /* Images.xcassets */,
 				ED7A1CED19E078A200B5ABEA /* LaunchScreen.xib */,
 				ED7A1CDE19E078A200B5ABEA /* Supporting Files */,
-				EDA9058E19E2C979000A823C /* SShape.swift */,
 			);
 			path = Swiftris;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				EDA9058719E2C81E000A823C /* TShape.swift in Sources */,
 				ED7A1D2119E082A800B5ABEA /* Block.swift in Sources */,
 				ED7A1CE719E078A200B5ABEA /* GameViewController.swift in Sources */,
+				EDA9059119E2C9C0000A823C /* ZShape.swift in Sources */,
 				ED7A1CE119E078A200B5ABEA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
